@@ -554,7 +554,12 @@ mark,
 .blockquote-footer::before {
   content: "\2014\00A0";
 }
+.w3l-content-photo-5 .img-fluid {
+  width: 100%;
+  height: 30em;
+  object-fit: cover;
 
+}
 .img-fluid {
   max-width: 100%;
   height: auto;
@@ -12947,7 +12952,7 @@ h3.main-title-w3 {
   font-size: 45px;
   line-height: 50px;
   font-weight: 700;
-  color: var(--bg-light);
+  color: var(--white);
 }
 
 /* #services p {
@@ -14253,7 +14258,9 @@ a.navbar-brand span.fa {
       rgba(0, 0, 0, 0.67)
     ),
     url(../images/g6.jpg);
+    height: 30em;
   background-size: cover;
+  object-fit: cover;
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: bottom right, left, right;
 }
@@ -15217,7 +15224,17 @@ span.sicon {
   transition: 0.3s ease;
   color: var(--primary);
 }
-
+#client section > div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#client section > div h3{
+  color: var(--white);
+  font-weight: 900;
+  margin-bottom: 0.5em;
+}
 .w3l-services-block-3 .feature-body:hover h3.feature-titel {
   color: #fff;
   transition: 0.3s ease;
